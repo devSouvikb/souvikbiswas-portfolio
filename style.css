@@ -126,3 +126,32 @@ hr {
 .txt-spacing {
   margin-bottom: 1.5rem;
 }
+
+/* footer */
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 1rem 0;
+  text-align: center;
+  color: #ffffff;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: #ffffff;
+}
+
+.footer-header {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.footer ul {
+  padding-inline-start: 0;
+}
+
+/* blog */
+
+.blog-style {
+  margin-bottom: 5rem;
+}
