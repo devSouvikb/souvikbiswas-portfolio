@@ -48,3 +48,15 @@ hr {
   border: solid 0.1rem var(--primary-color);
   margin: 1rem;
 }
+
+/* list  */
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0 0.5rem;
+}
+
