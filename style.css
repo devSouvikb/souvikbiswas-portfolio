@@ -60,3 +60,27 @@ hr {
   padding: 0 0.5rem;
 }
 
+/* nav */
+.navigation {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .link {
+  color: #ffffff;
+}
+
+.nav-brand {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav-pills {
+  text-align: right;
+}
+
+.link-active {
+  font-weight: bold;
+}
