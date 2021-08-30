@@ -28,3 +28,23 @@ hr {
   width: 100%-style;
   margin: auto;
 }
+
+/* links */
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+
+  border-radius: 0.5rem;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border: solid 0.1rem var(--primary-color);
+  margin: 1rem;
+}
