@@ -16,3 +16,15 @@ body {
 hr {
   margin: 2rem 0;
 }
+
+/* containers */
+
+.container {
+  padding: 0 1rem;
+}
+
+.container-center {
+  max-width: 900px;
+  width: 100%-style;
+  margin: auto;
+}
