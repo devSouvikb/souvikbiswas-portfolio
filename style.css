@@ -105,9 +105,19 @@ hr {
   padding-top: 1rem;
 }
 
+.sub-heading {
+  color: var(--dark-grey);
+  margin-top: -0.5rem;
+}
+
 .primary-style {
   color: var(--primary-color);
   font-size: 2.5rem;
+}
+
+.secondary-style {
+  color: var(--primary-color);
+  font-size: 1.2rem;
 }
 
 /* section */
