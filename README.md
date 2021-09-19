@@ -1,6 +1,6 @@
 # My Portfolio
 
-Hey! Welcome to my portfolio.
+👋 Hey! Welcome to my portfolio.
 
 This portfolio is to showcase my learnings and includes all my projects and blogs.
 
