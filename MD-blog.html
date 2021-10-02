@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs | Souvik Biswas</title>
+    <link rel="icon" href="./images/fabicon-img.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand">
+        <a class="link" href="./index.html">Souvik Biswas</a>
+      </div>
+
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="./index.html">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="./project.html">Projects</a>
+        </li>
+        <li class="list-item-inline link-active">
+          <a class="link" href="./blog.html">Blogs</a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="hero">
+      <img class="blog-img" src="./images/md-blog.png" alt="" />
+      <h1 class="hero-heading">
+        A beginner's guid to create <span class="primary-style">README</span> on
+        github
+      </h1>
+    </header>
+
+    <article class="container container-center blog-style">
+      <article class="txt-spacing">
+        For creating <strong>README.md</strong> on github we use
+        <code>Markdown(.md)</code>
+        <h2>So, what is Markdown?</h2>
+        Markdown is a lightweight markup language for creating formatted text.
+        Created by John Gruber in 2004. It is a fast and easy way to take notes,
+        create content for a website, and produce print-ready documents. These
+        files have extension of <code>.md</code>
+        <blockquote>In short it is the simplier way of writing HTML</blockquote>
+        <h2>So, what is README.md file?</h2>
+        A Readme file gives the user(who visits your repository) a brief idea
+        about what the project is all about, which language it has used, what
+        are the terms and conditions, licensing, how many forks/stars the
+        repository has got, what your project can do, screenshots of your
+        running application, etc
+        <h2>Writing a README file and the syntax.</h2>
+        You need to follow a certain syntax pattern to get the correct Markdown
+        script as your desired output.
+        <h3>Header</h3>
+        As similar to HTML it also has 6 types of headings i.e. H1 - H6
+        <div class="code-style">
+          <code
+            ># H1 <br />
+            ## H2<br />
+            ### H3 <br />
+            #### H4 <br />
+            ##### H5 <br />
+            ###### H6</code
+          >
+        </div>
+        <h3>Horizontal Rule</h3>
+        There are a few different ways a horizontal rule can be created in
+        markdown
+        <div class="code-style">
+          <code
+            >--- (Using Hyphens)<br />
+            ___ (Using Underscores)<br />
+            *** (Using Asterisks)<br />
+          </code>
+        </div>
+        <h3>Typography</h3>
+        <ul>
+          <li>
+            Emphasis, aka italics, with
+            <code> *asterisks* or _underscores_ </code>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            Strong emphasis, aka bold, with
+            <code> **asterisks** or __underscores__ </code>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            Combined emphasis with
+            <code> **_asterisks and underscores_** </code>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            Strikethrough uses two tildes
+            <code> ~~Scratch this~~ </code>
+          </li>
+        </ul>
+
+        <h3>Blockquote</h3>
+        Blockquote can be created using <code> > (greater than symbol)</code>
+        <h3>Links</h3>
+        To create a link we use <code>[] square brackets</code> for writing the
+        text and <code>() parenthesis</code> for writing the link.
+        <div class="code-style">
+          <code>[Google](https://www.google.com)</code>
+        </div>
+        <h3>Lists</h3>
+        <strong>Unordered List</strong>
+        <br />
+        There are a few different ways an unordered list can be created in
+        markdown
+        <div class="code-style">
+          <code
+            >* (Using Asterisk)<br />
+            + (Using pluse)<br />
+            - (Using minus)<br />
+          </code>
+        </div>
+        <br />
+        <strong>Ordered List</strong>
+        <br />
+        A ordered list can be created using simple numbers
+        <div class="code-style">
+          <code
+            >1. Item one<br />
+            2. Item two<br />
+            3. Item three<br />
+          </code>
+        </div>
+        <h3>Code Block</h3>
+        <strong>Inline Code Block</strong>
+        <br />
+        An inline code block can be created using <code>`tilde`</code>
+        <div class="code-style">
+          <code>`Console.log("Hello World")`</code>
+        </div>
+        <br />
+        <strong>Fenced Code Block</strong>
+        <br />
+        To create a fenced code block we use <code>```three teldes```</code>
+        <div class="code-style">
+          <code
+            >``` <br />
+            function add (num1, num2) { <br />
+            add = num1 + num2; <br />
+            return add; <br />
+            } <br />
+            ```</code
+          >
+        </div>
+        <h3>Image</h3>
+        To add an image in the file we can use <code>! Exclamation mark</code>,
+        <code>[] Square brackets</code> for writing the text and
+        <code>() Parenthesis</code> for writing the link.
+        <div class="code-style">
+          <code>![alt text](image.svg)</code>
+        </div>
+        <h3>Table</h3>
+        <div class="code-style">
+          <code>
+            | Name | Email | <br />
+            | ----------- | ----------- | <br />
+            | John | John123@gmail.com |<br />
+            | Jena | Jena321@gmail.com |
+          </code>
+        </div>
+      </article>
+    </article>
+
+    <footer class="footer">
+      <p class="footer-header">Let's Connect</p>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/devSouvikb" target="_blank"
+            >github</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/souvik-biswas-358525186/"
+            target="_blank"
+            >linkedin</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/dev_souvikb" target="_blank"
+            >twitter</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
