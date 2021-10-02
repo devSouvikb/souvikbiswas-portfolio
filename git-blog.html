@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs | Souvik Biswas</title>
+    <link rel="icon" href="./images/fabicon-img.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand">
+        <a class="link" href="./index.html">Souvik Biswas</a>
+      </div>
+
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="./index.html">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="./project.html">Projects</a>
+        </li>
+        <li class="list-item-inline link-active">
+          <a class="link" href="./blog.html">Blogs</a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="hero">
+      <img class="blog-img" src="./images/git-blog.png" alt="" />
+      <h1 class="hero-heading">
+        A beginner's guide to <span class="primary-style">Git</span>
+      </h1>
+    </header>
+
+    <article class="container container-center blog-style">
+      <article class="txt-spacing">
+        <h2>What is Version Control System?</h2>
+        <p>
+          A Version Control System (VCS) also known as Source Code Manager (SCM)
+          is a system that records changes to a file or set of files over time
+          so that you can recall specific versions later. So ideally, we can
+          place any file in the computer on version control.
+        </p>
+        <h2>So, what is Git?</h2>
+        <p>
+          Git is a version-control system for tracking changes in computer files
+          and coordinating work on those files among multiple people. Git is a
+          <strong>Distributed Version Control System</strong>.
+        </p>
+        <p>
+          It helps you keep track of the changes you make to your code. It is
+          basically the history tab for your code editor. If at any point while
+          coding you hit a fatal error and don’t know what’s causing it you can
+          always revert back to the stable state. So it is very helpful for
+          debugging. Or you can simply see what changes you made to your code
+          over time.
+        </p>
+        <p>
+          By using services like <strong>GitHub, GitLab, BitBucket</strong> etc
+          multiple people and teams can easily collaborate among themselves on
+          various projects and with help of <strong>Git</strong> can easily
+          track all the changes along the code base.
+        </p>
+        <h2>Common terminologies to get familiar with</h2>
+        <h3>Repository</h3>
+        A repository aka repo is nothing but a collection of source code. It
+        contains all of your project's files and each file's revision history
+        with commits. You can discuss and manage your project's work within the
+        repository. Repositories can be owned individually, or in a shared
+        ownership with other people in an organization.
+        <h3>Branch</h3>
+        A branch is a version of the repository that diverges from the main
+        working project, it is like <strong>branch of tree</strong>. It is an
+        essential feature available in most modern version control systems. A
+        Git project can have more than one branch. We can perform many
+        operations on Git branch-like rename, list, delete, etc. The default
+        branch in Git is the <strong>Master</strong> or the
+        <strong> Main branch</strong>.
+        <h3>Master</h3>
+        Master or Main is a naming convention for Git branch. It's a default
+        branch of Git. After cloning a project from a remote server, the
+        resulting local repository contains only a single local branch. This
+        branch is called a "master" branch. It means that "master" is a
+        repository's "default" branch.
+        <h3>Commit</h3>
+        Every time you commit the state of your project in Git, it basically
+        takes a picture of what all your files look like at that moment and
+        stores a reference to that commit. All the changes from removing to
+        adding code base all are noted via perticular commit.
+        <h2>Some of the important Git commands</h2>
+        <h3>git init</h3>
+        <code>git init</code> is the git command by which we can create a new
+        git repository from scratch. It is also used to initialize the existing
+        project folder as a git repository.
+        <h3>git add</h3>
+        <code>git add</code> is a command used to add a file that is in the
+        working directory to the staging area.
+        <h3>git status</h3>
+        <code>git status</code> is a command used to see what you have in the
+        staging area and ready for commit, basically it will display the
+        difference between "git add" and "git commit" command
+        <h3>git commit</h3>
+        <code>git commit</code> is a command used to add all files that are
+        staged to the local repository.
+        <h3>git push</h3>
+        <code>git push</code> is a command used to push the local repository
+        into the remote repository services such as GitHub, GitLab, etc.
+        <h3>git pull</h3>
+        <code>git pull</code> is a command used to pull the remote repository
+        from services like GitHub, to the local working directory.
+        <h3>git clone</h3>
+        <code>git clone</code> is a command used to download and setup a remote
+        repository into the local environment.
+        <h3>git merge</h3>
+        <code>git merge</code> is a command used to to get the files from the
+        local repository into the working directory.
+      </article>
+    </article>
+
+    <footer class="footer">
+      <p class="footer-header">Let's Connect</p>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/devSouvikb" target="_blank"
+            >github</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/souvik-biswas-358525186/"
+            target="_blank"
+            >linkedin</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/dev_souvikb" target="_blank"
+            >twitter</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
