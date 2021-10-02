@@ -34,7 +34,6 @@ hr {
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
-
   border-radius: 0.5rem;
 }
 
@@ -100,24 +99,23 @@ hr {
   margin-right: auto;
 }
 
+.blog-img {
+  max-width: 550px;
+  border-radius: 12px;
+  display: block;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hero-heading {
   color: var(--dark-grey);
   padding-top: 1rem;
 }
 
-.sub-heading {
-  color: var(--dark-grey);
-  margin-top: -0.5rem;
-}
-
 .primary-style {
   color: var(--primary-color);
   font-size: 2.5rem;
-}
-
-.secondary-style {
-  color: var(--primary-color);
-  font-size: 1.2rem;
 }
 
 /* section */
@@ -135,6 +133,23 @@ hr {
 
 .txt-spacing {
   margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+code {
+  background-color: #eeeeee;
+  border-radius: 4px;
+  padding: 0 3px;
+  font-size: 1rem;
+}
+
+.code-style {
+  background-color: #eeeeee;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 2rem;
 }
 
 /* footer */
